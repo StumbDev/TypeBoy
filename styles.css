@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #202124;
+    color: #bdab8a;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #6200ea;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffeb3b;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background: linear-gradient(135deg, #5adaff, #5468ff);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.button {
+    background: #6200ea;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #5adaff;
+}
+
+.features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.download {
+    padding: 50px 0;
+    text-align: center;
+    background: #6200ea;
+    color: white;
+}
+
+footer {
+    background: #202124;
+    color: #bdab8a;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.socials a {
+    color: #bdab8a;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: white;
+}
+
+.download-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.download-item {
+    background: #3c4fe0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 30%; /* Responsive layout */
+    min-width: 250px; /* Minimum width for each item */
+}
+
+.download-item h3 {
+    margin: 0;
+    color: white;
+}
+
+.download-item p {
+    color: #bdab8a;
+}
